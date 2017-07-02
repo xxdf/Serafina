@@ -19,8 +19,8 @@ $ pip install pywin32
 - `KeyStroke(event)`: Responsável por captar as teclas pressionadas, e gravá-las no arquivo de `log.txt`;
 - `serafina()`: Nome carinhosamente dado ao programa, e a função que, consiste em ser assumida por uma *Thread* que, de tempo em tempo acessa um email no qual os dados sãs especificados no escopo do programa, e envia o arquivo de `log.txt` gravado e atualizado pelas demais funcoes;
 - `atualiza_arquivo(novo_texto)`: Recebe por parametro o texto á adicionar no arquivo de `log.txt` já existente, e assim o faz;
-- `enviar_email(de, para, senha, msg_assunto, msg_corpo)`: recebe por parametro as informações necessárias para enviar arquivo `log.txt` no email.
-- `adiciona_anexo(msg, filename)`: Recebe por parametro `msg` e `filename`, que corresponde aos dados da mensagem a ser enviada, e ao nome do arquivo que será anexado, deve estar dentro da pasta do executável.
+- `enviar_email(de, para, senha, msg_assunto, msg_corpo)`: recebe por parametro as informações necessárias para enviar arquivo `log.txt` no email;
+- `adiciona_anexo(msg, filename)`: Recebe por parametro `msg` e `filename`, que corresponde aos dados da mensagem a ser enviada, e ao nome do arquivo que será anexado, deve estar dentro da pasta do executável;
 ---
 
 ## Imports:

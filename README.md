@@ -33,7 +33,7 @@ $ pip install pywin32
   
   
 Based on [Black Hat Python Book]
-Author [Eber H. S. A.] and Jeniffer Genoatto
+Author [Eber H. S. A.] and [Jeniffer Genoatto]
   
   [Python]: <http://python.org>
   [2.7.x]: <https://www.python.org/downloads/release/python-2713/>
@@ -41,3 +41,4 @@ Author [Eber H. S. A.] and Jeniffer Genoatto
   [pywin32]: <https://pypi.python.org/pypi/pywin32>
   [Black Hat Python Book]: <https://novatec.com.br/livros/black-hat-python/>
   [Eber H. S. A.]: <https://github.com/xxdf>
+  [Jeniffer Genoatto]: <https://github.com/JenifferGenoatto>

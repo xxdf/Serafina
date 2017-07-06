@@ -27,7 +27,7 @@ $ pip install pywin32
 - Os imports é onde sao feitas as declarações das bibliotecas que serão usadas no decorrer do programa;
 - Função `Thread` da biblioteca `threading`, responsável por criar e gerenciar a thread criada para enviar email;
 - Função `sleep` da biblioteca `time`, responsável por fazer com que o S.O. espere um tempo especificado para prosseguir com a execução;
-- Bibliotecs `pythoncom`, `pyHook`, `win32clipboard`, responsável por gerenciar trocas de telas com prioridade no sistema operacional, além de capturar as teclas pressionadas, e ter acesso as informações de processo necessárias para manipular as operações;
+- Bibliotecas `pythoncom`, `pyHook`, `win32clipboard`, responsável por gerenciar trocas de telas com prioridade no sistema operacional, além de capturar as teclas pressionadas, e ter acesso as informações de processo necessárias para manipular as operações;
 - A biblioteca `funcoes` é um pacote importado, que faz referencia a um programa chamado `funcoes.py` que fica na mesma pasta do programa `serafina` executável, nela contém tres funcoes criadas, `atualiza_arquivo`, `enviar_email` e `adiciona_anexo`. Estas poderão ser referenciadas a qualquer momento no presente executável (`serafina.py`);
 - imports referente á bilioteca `email` e `smtplib`, são para gerenciar o acesso e envio das informações via email;
   

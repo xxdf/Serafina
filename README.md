@@ -32,8 +32,8 @@ $ pip install pywin32
 - imports referente á bilioteca `email` e `smtplib`, são para gerenciar o acesso e envio das informações via email;
   
   
-Based on [Black Hat Python Book]
-Author [Eber H. S. A.] and [Jeniffer Genoatto]
+##### Based on [Black Hat Python Book]
+##### Authors [Eber H. S. A.] and [Jeniffer Genoatto]
   
   [Python]: <http://python.org>
   [2.7.x]: <https://www.python.org/downloads/release/python-2713/>

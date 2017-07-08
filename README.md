@@ -1,4 +1,4 @@
-# Serafina 
+# Serafina
 Keylogger example with [Python] + send info to email
 
 [![N|Solid](https://assets-cdn.github.com/images/icons/emoji/octocat.png)](#)
@@ -31,14 +31,14 @@ $ pip install pywin32
 - A biblioteca `funcoes` é um pacote importado, que faz referencia a um programa chamado `funcoes.py` que fica na mesma pasta do programa `serafina` executável, nela contém tres funcoes criadas, `atualiza_arquivo`, `enviar_email` e `adiciona_anexo`. Estas poderão ser referenciadas a qualquer momento no presente executável (`serafina.py`);
 - imports referente á bilioteca `email` e `smtplib`, são para gerenciar o acesso e envio das informações via email;
   
-  
 ##### Based on [Black Hat Python Book]
 ##### Authors [Eber H. S. A.] and [Jeniffer Genoatto]
-  
+##### Available on [Serafina]
   [Python]: <http://python.org>
   [2.7.x]: <https://www.python.org/downloads/release/python-2713/>
   [pyHook]: <https://pypi.python.org/pypi/pyHook>
   [pywin32]: <https://pypi.python.org/pypi/pywin32>
   [Black Hat Python Book]: <https://novatec.com.br/livros/black-hat-python/>
   [Eber H. S. A.]: <https://github.com/xxdf>
+  [Serafina]: <https://xxdf.github.io/Serafina/>
   [Jeniffer Genoatto]: <https://github.com/JenifferGenoatto>

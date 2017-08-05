@@ -9,7 +9,7 @@ de = "yYYyYyyYyYyyYYyY"								# your email here
 senha = "xxXXxxXXXXXxXXx"							# password
 para = ["yYYyYyyYyYyyYYyY"]							# email thats receive information
 
-commandToClose = 'F7'
+commandToClose = 'F7'								# keypress to close Serafina
 time_sleep = 1800									# tempo em segundos (3600 = 1 em 1 hora)
 host = 'smtp.gmail.com'								# servidor de email
 port = 465											# porta do servidor de email

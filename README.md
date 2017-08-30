@@ -41,6 +41,9 @@ $ pip install pywin32
 * A biblioteca `funcoes` é um pacote importado, que faz referencia a um programa chamado `funcoes.py` que fica na mesma pasta do programa `serafina` executável, nela contém tres funcoes criadas, `atualiza_arquivo`, `enviar_email` e `adiciona_anexo`. Estas poderão ser referenciadas a qualquer momento no presente executável (`serafina.py`);
 * imports referente á bilioteca `email` e `smtplib`, são para gerenciar o acesso e envio das informações via email;
 
+## ATTENTION: This software is fully devoted to de study of the functions and libs. Please Do not use to harm anyone! ##
+
+
 ##### Based on [Black Hat Python Book]
 ##### Authors [Eber H. S. A.] and [Jeniffer Genoatto]
 ##### Available on [Serafina]
